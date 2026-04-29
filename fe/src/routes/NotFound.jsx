@@ -8,7 +8,7 @@ export default function NotFound() {
                 404
             </h1>
             
-            <div className='bg-blue-500 text-white px-2 text-sm rounded rotate-12 absolute mt-[-100px] shadow-sm'>
+            <div className='bg-blue-500 text-white px-2 text-sm rounded rotate-12 absolute -mt-25 shadow-sm'>
                 Page Not Found
             </div>
 

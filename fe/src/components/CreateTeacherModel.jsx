@@ -277,7 +277,7 @@ const CreateTeacherModel = ({ setIsCreateModelOpened, handleApi }) => {
                                         </td>
                                         <td className="py-2 px-4">
                                             <input
-                                                type="text"
+                                                type="number"
                                                 placeholder="Nhập năm tốt nghiệp"
                                                 className="w-full px-3 py-2 border border-gray-200 rounded-md text-sm outline-none text-gray-700 placeholder:text-gray-300 focus:border-purple-500 transition-colors"
                                                 onChange={(e) => onChangeDegree(index, 'year', e.target.value)}
